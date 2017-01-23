@@ -21,9 +21,9 @@ namespace TraducaoHexaText
         {
             for(int x=0;x<manipulado.GetLength(0);x++)
             {
-                entrada = manipulado[x, 2];
+                entrada = manipulado[x, 4];
                 if(entrada!=null)
-                this.manipulado[x, 2] = converteHexa(entrada);
+                this.manipulado[x, 4] = converteHexa(entrada);
             }
             this.saida = manipulado;
             salvaTabela(this.saida);
